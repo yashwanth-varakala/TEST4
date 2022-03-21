@@ -8,3 +8,7 @@ walking_from_dornsheimer=13
 
 Total= walking_from_home + travel + walking_from_dornsheimer
 print(Total)
+
+cook_time=int(input('enter time taken for the cokking'))
+
+print(cooking_day_time= Total + cook_time)
