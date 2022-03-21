@@ -11,4 +11,5 @@ print(Total)
 
 cook_time=int(input('enter time taken for the cokking'))
 
-print(cooking_day_time= Total + cook_time)
+cooking_day_time= Total + cook_time
+print(cooking_day_time)
