@@ -13,3 +13,8 @@ cook_time=int(input('enter time taken for the cokking'))
 
 cooking_day_time= Total + cook_time
 print(cooking_day_time)
+print('late somedays due to bus/train misss')
+late= int(input('enter how much late it was'))
+
+all= cooking_day_time + late
+print(all)
