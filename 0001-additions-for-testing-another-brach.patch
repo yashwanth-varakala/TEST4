@@ -1,0 +1,25 @@
+From c6f29d1d8cc72bda8f5f6ac76ca07a5210f0123e Mon Sep 17 00:00:00 2001
+From: "yashwanth.varakala" <y.varakala@phytec.de>
+Date: Tue, 22 Mar 2022 09:57:34 +0100
+Subject: [PATCH] additions for testing another brach
+
+---
+ gittest.py | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+diff --git a/gittest.py b/gittest.py
+index 8c3ed73..1974c7e 100644
+--- a/gittest.py
++++ b/gittest.py
+@@ -13,3 +13,8 @@ cook_time=int(input('enter time taken for the cokking'))
+ 
+ cooking_day_time= Total + cook_time
+ print(cooking_day_time)
++print('late somedays due to bus/train misss')
++late= int(input('enter how much late it was'))
++
++all= cooking_day_time + late
++print(all)
+-- 
+2.25.1
+
